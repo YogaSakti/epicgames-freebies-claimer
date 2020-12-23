@@ -5,7 +5,7 @@ const path = require("path");
 
 module.exports = {
     "format":     " {{timestamp}} | {{title}} | {{message}}",
-    "dateformat": "yyyy-mm-dd | HH:MM:ss.l",
+    "dateformat": "yyyy-mm-dd | HH:MM:ss",
     "filters":    {
         "log":   colors.white,
         "trace": colors.magenta,

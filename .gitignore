@@ -3,7 +3,6 @@
 *.lnk
 node_modules
 package-lock.json
-.egstore/*
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -11,3 +10,5 @@ package-lock.json
 !.vscode/extensions.json
 *.code-workspace
 .idea
+*.lock
+config.json
