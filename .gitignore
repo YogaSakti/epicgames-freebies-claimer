@@ -12,3 +12,4 @@ package-lock.json
 .idea
 *.lock
 config.json
+.egstore/
