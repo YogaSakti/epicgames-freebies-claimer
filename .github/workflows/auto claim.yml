@@ -29,5 +29,5 @@ jobs:
         npm install
     - name: Claim rewards | youalreadydead
       run: |
-        npm start ${{ secrets.username }} ${{ secrets.password }} 0
+        npm start ${{secrets.USERNAME}} ${{secrets.PASSWORD}} 0
 
