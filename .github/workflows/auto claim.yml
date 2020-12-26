@@ -29,6 +29,7 @@ jobs:
         npm install
     - name: Claim rewards | youalreadydead
       run: |
+        mkdir /.egstore/b4cc1e302e5f44a8d2990fabc6d1c2f0af8b0c016dc3873ac18f51be7c961ab6
         touch /.egstore/b4cc1e302e5f44a8d2990fabc6d1c2f0af8b0c016dc3873ac18f51be7c961ab6/lastSessionCookies.json
         echo ${{secrets.COOKIE}} >> /.egstore/b4cc1e302e5f44a8d2990fabc6d1c2f0af8b0c016dc3873ac18f51be7c961ab6/lastSessionCookies.json
         npm start ${{secrets.USERNAME}} ${{secrets.PASSWORD}} 1
