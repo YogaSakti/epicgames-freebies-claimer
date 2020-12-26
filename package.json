@@ -36,9 +36,8 @@
         "check-update-github": "^0.0.4",
         "colors": "^1.4.0",
         "epicgames-client": "Revadike/node-epicgames-client#develop",
-        "epicgames-client-login-adapter": "AllieQpzm/node-epicgames-client-login-adapter",
+        "epicgames-client-login-adapter": "YogaSakti/node-epicgames-client-login-adapter",
         "node-2fa": "^1.1.2",
-        "tough-cookie": "^4.0.0",
         "tracer": "^1.1.4"
     }
 }
